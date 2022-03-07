@@ -5,10 +5,6 @@ let title = 'My New Astro Site!';
 
 import MySiteLayout from '../layouts/MySiteLayout.astro';
 
-<MySiteLayout>
-  <p>My page content, wrapped in a layout!</p>
-</MySiteLayout>
-
 ---
 
 <html lang="en">
@@ -32,6 +28,9 @@ import MySiteLayout from '../layouts/MySiteLayout.astro';
     </header>
 
     <Tour />
+    <MySiteLayout>
+  <p>My page content, wrapped in a layout!</p>
+</MySiteLayout>
   </main>
 </body>
 </html>
